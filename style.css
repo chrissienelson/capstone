@@ -1,0 +1,175 @@
+body {
+    font-family: 'Poppins Light', sans-serif;
+   }
+  
+  p {
+    line-height: 1.5em;
+  }
+  
+  a {
+    color: #faaf86;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #4e385e;
+  }
+  
+  .nav {
+      position: fixed;
+      background-color: white;
+      width: 100%;
+  }
+  
+  .site-header {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .site-header img {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .site-header h3 {
+    color: #b694c5;
+    font-size: .75em;
+  }
+  .hook h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #3b6664;
+  }
+  .hook {
+    padding: 50px;
+    text-align: center;
+    background-color: #b3ddc4;
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+  
+  .hook p {
+    font-size: 20px;
+    color: black;
+  }
+
+
+  
+  .description {
+    background-color: white;
+  }
+  
+  .description h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    color: #faaf86;
+  }
+  
+  .description p {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    color: black;
+    font-size: 14px;
+    font-style: bold;
+    background-color: white;
+    text-align: center;
+  }
+  
+  
+    .process {
+      background-color: #4e385e;
+    }
+  
+    .process h1 {
+      text-align: center;
+      padding-top: 50px;
+      font-size: 20px;
+      color: white;
+    }
+  
+    .process p {
+      padding-right: 250px;
+      padding-left: 250px;
+      padding-bottom: 50px;
+      color: white;
+      font-size: 14px;
+      font-style: bold;
+      background-color: #4e385e;
+      text-align: center;
+    }
+  
+    .process h3 {
+      text-align: center;
+      padding-top: 20px;
+      font-size:  24px;
+      color:#4e385e;
+    }
+  
+  .process img {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    .citations h1 {
+      text-align: center;
+      padding-top: 50px;
+      font-size: 20px;
+      color: #b3ddc4;
+    }
+  
+    .citations p {
+      padding-right: 250px;
+      padding-left: 250px;
+      padding-bottom: 50px;
+      color: black;
+      font-size: 14px;
+      font-style: bold;
+      text-align: center;
+    }
+
+    /****FOOTER FORMATTING****/
+.footer {
+  position: relative;
+  font-size: 0.7em;
+  margin-top: 100px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.footer li {
+  display: block;
+  margin: 1em 4em 0.5em 2em;
+}
+
+
+#footername {
+  font-size: 1.2em;
+  margin-left: 20px;
+}
+
+.one-fourth p {
+  font-size: 10px;
+}
+/****end of footer FORMATTING****/
+
+
+.main {
+  margin-top: 0;
+  padding: 0;
+  z-index: -1;
+  /* margin: 2rem 2rem; */
+}
+
+.home .two-thirds {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.one-half {
+  width: 50%;
+  flex-grow: 2;
+}
