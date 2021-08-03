@@ -22,8 +22,11 @@ body {
   }
   
   .site-header {
-    text-align: center;
-    padding: 40px;
+    text-align: left;
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #4e385e;
   }
   
   .site-header img {
@@ -33,31 +36,40 @@ body {
   
   .site-header h3 {
     color: #000000;
-    font-size: .75em;
+    font-size: 40px;
+    padding: 10px;
+    text-align: left;
   }
   .hook h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 60px;
     color: #cdb3df;
+    font-family: 'Poppins Regular', sans-serif;
   }
-  .hook {
-    padding: 50px;
+
+  .hook h2 {
     text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+
+  .hook {
+    padding: 200px;
     background-color: #4e385e;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 150px;
+    padding-left: 150px;
   }
   
   .hook p {
-    font-size: 20px;
-    color: #ffffff;
+    font-size: 14px;
+    color: white;
+    text-align: center;
   }
-
-
 
   
   .description {
     background-color: white;
+    padding-top: 25px;
   }
   
   .description h1 {
@@ -70,34 +82,33 @@ body {
   .description p {
     padding-right: 150px;
     padding-left: 150px;
-    padding-bottom: 50px;
     color: black;
     font-size: 20px;
-    font-style: bold;
     background-color: white;
     text-align: center;
   }
   
   
     .process {
-      background-color: #4e385e;
+      background-color: #cdb3df;
     }
   
     .process h1 {
       text-align: center;
       padding-top: 50px;
       font-size: 20px;
-      color: white;
+      color: #4e385e;
+      font-family: 'Poppins Regular', sans-serif;
+
     }
   
     .process p {
-      padding-right: 250px;
-      padding-left: 250px;
-      padding-bottom: 80px;
-      color: white;
+      padding-right: 200px;
+      padding-left: 200px;
+      color: #000000;
       font-size: 14px;
       font-style: bold;
-      background-color: #4e385e;
+      background-color: #cdb3df;
       text-align: center;
     }
   
@@ -105,7 +116,7 @@ body {
       text-align: center;
       padding-top: 20px;
       font-size:  20px;
-      color:#cdb3df;
+      color:white;
     }
   
   .process img {
